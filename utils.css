@@ -1,0 +1,117 @@
+.flex{
+    display:flex;
+}
+.items-center{
+    align-items: center;
+
+}
+.justify-center{
+    justify-content: center;
+
+ }
+ .space-between{
+    justify-content: space-between;
+ }
+ .uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+
+  }
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+/* .wrapperm{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.cardm{
+    width: 280px;
+    height: 360px;
+    padding: 2 rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+.cardm:hover{
+    transform: translate(20px);
+}
+.cardm:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgba(0,176,155,0.5), rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+.cardm:hover:before{
+    opacity: 1;
+}
+.cardm img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cardm .infom{
+    position: relative;
+    left: 20px;
+    z-index: 2;
+    color: rgb(12, 4, 4);
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+.cardm:hover .infom{
+    opacity: 1;
+    transform: translateY(0px);
+}
+@media(max-width:584px){
+    .wrapperm{
+        padding-left: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+} */
+a:link {
+    color: rgb(34, 32, 32);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(26, 24, 24);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c0b0b;
+    background-color: transparent;
+}
+
+a:active {
+    color: GREEN;
+    background-color: transparent;
+}
+.checked {
+    color: orange;
+  }
+  
